@@ -1,0 +1,18 @@
+$white:#ffffff;
+.banner{
+    background: url("../public/images/light-bg.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    // background: rgba(0, 0, 0, 0) linear-gradient(90deg, #cc3a40, #cc9a00) repeat scroll 0 0;
+    padding: 15px;
+    h1{
+        // color: $white;
+        font-size: 48px;
+        line-height: 55px;
+        text-transform: uppercase;
+    }
+    p{
+        // color: $white;
+        font-size: 18px;
+    }
+}
