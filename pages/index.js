@@ -11,6 +11,7 @@ import Whyus from '../components/whybulksms';
 import Footer from '../components/footer';
 import States from '../components/states';
 import Navbar from '../components/navbar';
+import Features from '../components/features';
 export default function Homepage({ component, pageprops }) {
   useEffect(() => {
     AOS.init({
@@ -26,6 +27,7 @@ export default function Homepage({ component, pageprops }) {
       <Herobanner />
       <Whyus {...pageprops} />
       <States {...pageprops} />
+      <Features/>
       <Footer />
     </>
   )
